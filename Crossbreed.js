@@ -95,7 +95,7 @@ var createClass = function(config){
     // Finally creating the Class.
     var Klass = function(){
         if(this.initialize){
-            this.initialize();
+            this.initialize.apply(this,arguments);
         }
     };
     Klass.prototype = prototype;
