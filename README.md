@@ -76,5 +76,5 @@ Invoking this.super[ParentClass] will call that parent Class's method.
 	var Celestia = new Alicorn("Celestia");
 	Celestia.speak(); // Celestia speaking, I'm a pony who's magical AND who can fly
 
-That's all the practical usage I'll ever need.
+That's all the practical usage *I'll* ever need.
 

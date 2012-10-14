@@ -1,6 +1,6 @@
 /*
  * CROSSBREED.JS - Multiple Inheritance in JavaScript
- * by Nicklaus Liow - http://ncase.me
+ * by Nicklaus Liow - http://nutcasenightmare.com
  * MIT License.
  */
 
@@ -52,6 +52,7 @@ var createClass = function(config){
 
             if(parentNames.length==1){
                 
+                // For single parents, this.super();
                 var parentFunc = parentPrototypes[0][funcName];
                 var newFunc = function(){
                     var _previousSuper = this.super;
@@ -65,7 +66,7 @@ var createClass = function(config){
 
             }else{
 
-                // Create Super object.
+                // For multiple parents, this.super[ParentName]();
                 var superObject = {};
                 for(var j=0;j<parentNames.length;j++){
                     var parentName = parentNames[j];
