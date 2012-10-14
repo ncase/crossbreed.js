@@ -3,7 +3,7 @@ Crossbreed.js - Multiple Inheritance in Javascript
 
 Given Javascript (ES5) doesn't even have *classical* inheritance, how greedy I must be to want *multiple* inheritance. 
 
-At just over 100 lines of code, this featherweight JS library can do just that.
+At just over 100 lines of code, this featherweight JS library can do what most OOP languages can't.
 
 ---
 
